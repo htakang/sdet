@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+
+                </div>
+                <div class="col-sm-6">
+                    <h2>Login</h2>
+                    <div class="jumbotron">
+                        <form action="/verifyUser" method="post">
+                            <label for="email">Email:</label>
+                            <input required="required" id="email" type="email" placeholder="e.g. johnsmith@example.com" class="form-control" name="email">
+                            <label required="required" for="password">Password:</label>
+                            <input id="password" type="password" class="form-control" name="password">
+                            <br>
+                            <button type="submit" class="btn btn-outline-success">Login</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

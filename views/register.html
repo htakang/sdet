@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+
+                </div>
+                <div class="col-sm-6">
+                    <h2>Register</h2>
+                    <div class="jumbotron">
+                        <form action="/newUser" method="post">
+                            <label for="name">Name:</label>
+                            <input id="name" type="text" placeholder="e.g. John Smith" class="form-control" name="name" required="required">
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" placeholder="e.g. johnsmith@example.com" class="form-control" name="email" required="required">
+                            <label for="phone">Phone:</label>
+                            <input id="phone" type="text" placeholder="e.g. +237675678123" class="form-control" name="phone" required="required">
+                            <label for="password">Password:</label>
+                            <input id="password" type="password" placeholder="at least 8 characters" class="form-control" name="password" required="required">
+                            <label for="cpassword">Confirm Password:</label>
+                            <input id="cpassword" type="password" placeholder="must match password entered above" class="form-control" name="cpassword" required="required">
+                            <br>
+                            <button type="submit" class="btn btn-outline-success">Save</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
